@@ -137,7 +137,7 @@ section{
 }
 
 .home .content{
-    max-width: 60rem;
+    max-width: 70rem;
 }
 
 .home .content span{
@@ -188,13 +188,13 @@ section{
 }
 
 .about .row .content h3{
-    font-size: 3rem;
+    font-size: 4rem;
     text-transform: capitalize;
     color: var(--white);
 }
 
 .about .row .content p{
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     color: #fff;
     padding: 1rem 0;
     line-height: 1.8;
@@ -406,9 +406,27 @@ section{
 }
 
 
-
-
-
+.pricing .boton_descarga_tarifas{
+    text-align: center;
+    margin-top: 20px;
+}
+.pricing .boton_descarga_tarifas button{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border-radius: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background: goldenrod;
+    color: black;
+    border: 2px solid var(--main-color);
+    font-size: 25px;
+    font-weight: bold;
+}
+.pricing .boton_descarga_tarifas button:hover{
+    color: goldenrod;
+    background: black;
+}
 
 /*Footer Original*/
 

@@ -27,9 +27,12 @@
 }
 .contact-right{
     display: flex;
+    border-radius: 10%;
     flex-direction: column;
     align-items: start;
     gap: 20px;
+    background-color: rgba(21, 20, 20, 0.75); /* Gris con 75% de transparencia */
+    padding: 20px; /* Añadido padding para mejorar la apariencia */
     
 }
 
